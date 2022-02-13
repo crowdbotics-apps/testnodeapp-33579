@@ -1,4 +1,4 @@
-### Getting Started In Development
+### Getting Started In Development 2
 
 First, duplicate the included `.env.example` file and rename it to `.env`
 Generate or rename the secret key and then proceed with the terminal commands.
