@@ -60,6 +60,10 @@ app.set('view engine', 'template.html');
 // Index Routes
 require('./routes/index.js')(app);
 
+console.log('Log All',)
+console.log('process.env',process.env)
+console.log('config',config)
+
 // Sync models THEN start server
 models.sequelize.sync({
   force: process.env.DB_FORCE === 'true'
